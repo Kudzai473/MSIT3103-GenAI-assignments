@@ -7,7 +7,7 @@ Please switch to the `assignment1` branch to view my final notebook and outputs.
 
 ### Details
 - **Dataset:** MNIST Digits (28×28 grayscale)
-- **Tools:** Python, Scikit-learn, NumPy, Matplotlib
+- **Tools:** Python, Scikit-learn, NumPy, Matplotlib, PyTorch
 
 ### Files
 - Jupyter Notebook: `assignment1_kudzai1.ipynb`
