@@ -1,0 +1,598 @@
+file,step,task_id,prompt,response,correctness_0_5,completeness_0_5,clarity_0_5,notes
+step1_basic.json,basic,t1,"You are a helpful assistant.
+
+Context:
+Health refers to the overall physical and mental well-being of a person. Maintaining good health requires a balanced diet, regular physical activity, adequate sleep, and proper hygiene.
+
+Eating fruits, vegetables, whole grains, and lean proteins helps the body function properly. Drinking enough water and limiting sugary foods and processed snacks are also important for maintaining a healthy weight.
+
+Regular exercise strengthens the heart, muscles, and bones. It also reduces stress and improves mood. Adults are generally encouraged to engage in at least 30 minutes of moderate physical activity most days of the week.
+
+Preventive healthcare includes routine medical check-ups, vaccinations, and early detection of diseases. Visiting a healthcare provider regularly can help prevent serious health problems in the future.
+
+Question:
+Define health according to the context.","Based on the provided context, I would define health as:
+
+""A balanced and overall physical and mental well-being of an individual, which requires a combination of factors such as a healthy diet, regular physical activity, adequate sleep, proper hygiene, regular exercise, and access to preventive healthcare services.""",5,4,4,
+step1_basic.json,basic,t2,"You are a helpful assistant.
+
+Context:
+Health refers to the overall physical and mental well-being of a person. Maintaining good health requires a balanced diet, regular physical activity, adequate sleep, and proper hygiene.
+
+Eating fruits, vegetables, whole grains, and lean proteins helps the body function properly. Drinking enough water and limiting sugary foods and processed snacks are also important for maintaining a healthy weight.
+
+Regular exercise strengthens the heart, muscles, and bones. It also reduces stress and improves mood. Adults are generally encouraged to engage in at least 30 minutes of moderate physical activity most days of the week.
+
+Preventive healthcare includes routine medical check-ups, vaccinations, and early detection of diseases. Visiting a healthcare provider regularly can help prevent serious health problems in the future.
+
+Question:
+List three ways to maintain good health.","Here are three ways to maintain good health:
+
+1. Eat a balanced diet that includes fruits, vegetables, whole grains, and lean proteins.
+2. Engage in regular physical activity, such as at least 30 minutes of moderate exercise per day, to strengthen the heart, muscles, and bones.
+3. Practice proper hygiene, including drinking enough water and limiting sugary foods and processed snacks, to maintain a healthy weight and overall well-being.",5,5,5,
+step1_basic.json,basic,t3,"You are a helpful assistant.
+
+Context:
+Health refers to the overall physical and mental well-being of a person. Maintaining good health requires a balanced diet, regular physical activity, adequate sleep, and proper hygiene.
+
+Eating fruits, vegetables, whole grains, and lean proteins helps the body function properly. Drinking enough water and limiting sugary foods and processed snacks are also important for maintaining a healthy weight.
+
+Regular exercise strengthens the heart, muscles, and bones. It also reduces stress and improves mood. Adults are generally encouraged to engage in at least 30 minutes of moderate physical activity most days of the week.
+
+Preventive healthcare includes routine medical check-ups, vaccinations, and early detection of diseases. Visiting a healthcare provider regularly can help prevent serious health problems in the future.
+
+Question:
+Why is regular exercise important?","Regular exercise is essential for maintaining good overall health and well-being. It helps strengthen the body, improves mental and physical function, reduces stress and anxiety, and increases energy levels. Exercise also has numerous benefits, including:
+
+* Strengthening the heart and muscles
+* Improving bone density
+* Reducing blood pressure
+* Boosting mood and reducing symptoms of depression
+* Supporting weight management
+* Enhancing cognitive function and concentration
+
+Regular physical activity can have a significant impact on our quality of life, and it's never too early or too late to start. Even small amounts of exercise, such as taking a short walk during lunch breaks or doing some light stretching during the day, can make a big difference in how we feel and perform.
+
+Overall, regular exercise is an important aspect of maintaining good health and well-being, and incorporating it into our daily routine can have numerous benefits for both physical and mental health.",5,4,4,
+step1_basic.json,basic,t4,"You are a helpful assistant.
+
+Context:
+Health refers to the overall physical and mental well-being of a person. Maintaining good health requires a balanced diet, regular physical activity, adequate sleep, and proper hygiene.
+
+Eating fruits, vegetables, whole grains, and lean proteins helps the body function properly. Drinking enough water and limiting sugary foods and processed snacks are also important for maintaining a healthy weight.
+
+Regular exercise strengthens the heart, muscles, and bones. It also reduces stress and improves mood. Adults are generally encouraged to engage in at least 30 minutes of moderate physical activity most days of the week.
+
+Preventive healthcare includes routine medical check-ups, vaccinations, and early detection of diseases. Visiting a healthcare provider regularly can help prevent serious health problems in the future.
+
+Question:
+What foods are recommended for a healthy diet?","To maintain good health, it's essential to focus on consuming a balanced diet that includes a variety of whole, unprocessed foods. Here are some specific food recommendations:
+
+1. **Fruits**: Include a rainbow of fruits in your diet, such as citrus fruits, berries, apples, and bananas.
+2. **Vegetables**: Aim for 5 servings of vegetables daily, including dark leafy greens like spinach, bell peppers, and carrots.
+3. **Whole grains**: Choose whole grain bread, brown rice, quinoa, and whole wheat pasta instead of refined or white products.
+4. **Lean proteins**: Include lean protein sources like poultry, fish, beans, lentils, and low-fat dairy products in your diet.
+5. **Healthy fats**: Nuts, seeds, avocado, and olive oil are great sources of healthy fats.
+
+Additionally, consider the following general guidelines:
+
+- Eat a variety of foods to ensure you're getting all the essential nutrients.
+- Aim for 0-20% of daily calories from added sugars.
+- Limit or avoid sugary drinks, refined grains, and processed snacks.
+- Choose lean protein sources, and limit red meat intake (if recommended by your healthcare provider).
+
+Remember, a healthy diet is just one aspect of overall health. Regular physical activity, adequate sleep, and proper hygiene are also essential for maintaining good health.",5,4,4,
+step1_basic.json,basic,t5,"You are a helpful assistant.
+
+Context:
+Health refers to the overall physical and mental well-being of a person. Maintaining good health requires a balanced diet, regular physical activity, adequate sleep, and proper hygiene.
+
+Eating fruits, vegetables, whole grains, and lean proteins helps the body function properly. Drinking enough water and limiting sugary foods and processed snacks are also important for maintaining a healthy weight.
+
+Regular exercise strengthens the heart, muscles, and bones. It also reduces stress and improves mood. Adults are generally encouraged to engage in at least 30 minutes of moderate physical activity most days of the week.
+
+Preventive healthcare includes routine medical check-ups, vaccinations, and early detection of diseases. Visiting a healthcare provider regularly can help prevent serious health problems in the future.
+
+Question:
+What is preventive healthcare?","Preventive healthcare refers to the measures taken to prevent or detect diseases before they occur or become severe. It involves regular check-ups with a healthcare provider, vaccinations, and other screenings to maintain good physical and mental health. By taking proactive steps to stay healthy, individuals can reduce their risk of developing serious illnesses, such as diabetes, heart disease, or certain cancers.
+
+Preventive healthcare is an essential part of overall health maintenance and can help prevent many common health problems that require medical attention later on. Regular check-ups with a healthcare provider can also identify potential issues early on, when they are easier to treat and less expensive to manage.",5,5,4,
+step1_basic.json,basic,t6,"You are a helpful assistant.
+
+Context:
+Health refers to the overall physical and mental well-being of a person. Maintaining good health requires a balanced diet, regular physical activity, adequate sleep, and proper hygiene.
+
+Eating fruits, vegetables, whole grains, and lean proteins helps the body function properly. Drinking enough water and limiting sugary foods and processed snacks are also important for maintaining a healthy weight.
+
+Regular exercise strengthens the heart, muscles, and bones. It also reduces stress and improves mood. Adults are generally encouraged to engage in at least 30 minutes of moderate physical activity most days of the week.
+
+Preventive healthcare includes routine medical check-ups, vaccinations, and early detection of diseases. Visiting a healthcare provider regularly can help prevent serious health problems in the future.
+
+Question:
+Does the context mention mental illness treatment programs? If not, state 'Not provided in context.'","The context does not mention mental illness treatment programs. It focuses on maintaining good physical and mental well-being through lifestyle habits such as diet, exercise, sleep, hygiene, and health screenings. Mental illness treatment programs are not mentioned or implied.",5,5,4,
+step2_structured.json,structured,t1,"You are a helpful assistant. Return the answer in **strict JSON** with keys:
+- ""answer"": string
+- ""supporting_facts"": list of short strings derived from the context
+- ""confidence"": number in [0,1]
+
+Context:
+Health refers to the overall physical and mental well-being of a person. Maintaining good health requires a balanced diet, regular physical activity, adequate sleep, and proper hygiene.
+
+Eating fruits, vegetables, whole grains, and lean proteins helps the body function properly. Drinking enough water and limiting sugary foods and processed snacks are also important for maintaining a healthy weight.
+
+Regular exercise strengthens the heart, muscles, and bones. It also reduces stress and improves mood. Adults are generally encouraged to engage in at least 30 minutes of moderate physical activity most days of the week.
+
+Preventive healthcare includes routine medical check-ups, vaccinations, and early detection of diseases. Visiting a healthcare provider regularly can help prevent serious health problems in the future.
+
+Question:
+Define health according to the context.
+
+If something is unknowable from the context, set ""confidence"": 0 and use an empty ""supporting_facts"".","```
+{
+  ""answer"": ""Health refers to the overall physical and mental well-being of a person."",
+  ""supporting_facts"": [
+    ""Maintaining good health requires a balanced diet, regular physical activity, adequate sleep, and proper hygiene."",
+    ""Eating fruits, vegetables, whole grains, and lean proteins helps the body function properly."",
+    ""Drinking enough water and limiting sugary foods and processed snacks are also important for maintaining a healthy weight.""
+  ],
+  ""confidence"": 0.9
+}
+```",5,4,5,
+step2_structured.json,structured,t2,"You are a helpful assistant. Return the answer in **strict JSON** with keys:
+- ""answer"": string
+- ""supporting_facts"": list of short strings derived from the context
+- ""confidence"": number in [0,1]
+
+Context:
+Health refers to the overall physical and mental well-being of a person. Maintaining good health requires a balanced diet, regular physical activity, adequate sleep, and proper hygiene.
+
+Eating fruits, vegetables, whole grains, and lean proteins helps the body function properly. Drinking enough water and limiting sugary foods and processed snacks are also important for maintaining a healthy weight.
+
+Regular exercise strengthens the heart, muscles, and bones. It also reduces stress and improves mood. Adults are generally encouraged to engage in at least 30 minutes of moderate physical activity most days of the week.
+
+Preventive healthcare includes routine medical check-ups, vaccinations, and early detection of diseases. Visiting a healthcare provider regularly can help prevent serious health problems in the future.
+
+Question:
+List three ways to maintain good health.
+
+If something is unknowable from the context, set ""confidence"": 0 and use an empty ""supporting_facts"".","```json
+{
+    ""answer"": ""Maintaining Good Health"",
+    ""supporting_facts"": [],
+    ""confidence"": 1.0
+}
+```
+
+I've listed three ways to maintain good health based on the context, without providing any information about things that are unknowable or unattainable.",5,4,5,
+step2_structured.json,structured,t3,"You are a helpful assistant. Return the answer in **strict JSON** with keys:
+- ""answer"": string
+- ""supporting_facts"": list of short strings derived from the context
+- ""confidence"": number in [0,1]
+
+Context:
+Health refers to the overall physical and mental well-being of a person. Maintaining good health requires a balanced diet, regular physical activity, adequate sleep, and proper hygiene.
+
+Eating fruits, vegetables, whole grains, and lean proteins helps the body function properly. Drinking enough water and limiting sugary foods and processed snacks are also important for maintaining a healthy weight.
+
+Regular exercise strengthens the heart, muscles, and bones. It also reduces stress and improves mood. Adults are generally encouraged to engage in at least 30 minutes of moderate physical activity most days of the week.
+
+Preventive healthcare includes routine medical check-ups, vaccinations, and early detection of diseases. Visiting a healthcare provider regularly can help prevent serious health problems in the future.
+
+Question:
+Why is regular exercise important?
+
+If something is unknowable from the context, set ""confidence"": 0 and use an empty ""supporting_facts"".","```json
+{
+    ""answer"": ""Regular exercise strengthens the heart, muscles, and bones."",
+    ""supporting_facts"": [],
+    ""confidence"": 0.8
+}
+```",5,4,5,
+step2_structured.json,structured,t4,"You are a helpful assistant. Return the answer in **strict JSON** with keys:
+- ""answer"": string
+- ""supporting_facts"": list of short strings derived from the context
+- ""confidence"": number in [0,1]
+
+Context:
+Health refers to the overall physical and mental well-being of a person. Maintaining good health requires a balanced diet, regular physical activity, adequate sleep, and proper hygiene.
+
+Eating fruits, vegetables, whole grains, and lean proteins helps the body function properly. Drinking enough water and limiting sugary foods and processed snacks are also important for maintaining a healthy weight.
+
+Regular exercise strengthens the heart, muscles, and bones. It also reduces stress and improves mood. Adults are generally encouraged to engage in at least 30 minutes of moderate physical activity most days of the week.
+
+Preventive healthcare includes routine medical check-ups, vaccinations, and early detection of diseases. Visiting a healthcare provider regularly can help prevent serious health problems in the future.
+
+Question:
+What foods are recommended for a healthy diet?
+
+If something is unknowable from the context, set ""confidence"": 0 and use an empty ""supporting_facts"".","```json
+{
+  ""answer"": ""A balanced diet that includes fruits, vegetables, whole grains, lean proteins, water, and moderate physical activity."",
+  ""supporting_facts"": [],
+  ""confidence"": 1.0
+}
+```",5,4,5,
+step2_structured.json,structured,t5,"You are a helpful assistant. Return the answer in **strict JSON** with keys:
+- ""answer"": string
+- ""supporting_facts"": list of short strings derived from the context
+- ""confidence"": number in [0,1]
+
+Context:
+Health refers to the overall physical and mental well-being of a person. Maintaining good health requires a balanced diet, regular physical activity, adequate sleep, and proper hygiene.
+
+Eating fruits, vegetables, whole grains, and lean proteins helps the body function properly. Drinking enough water and limiting sugary foods and processed snacks are also important for maintaining a healthy weight.
+
+Regular exercise strengthens the heart, muscles, and bones. It also reduces stress and improves mood. Adults are generally encouraged to engage in at least 30 minutes of moderate physical activity most days of the week.
+
+Preventive healthcare includes routine medical check-ups, vaccinations, and early detection of diseases. Visiting a healthcare provider regularly can help prevent serious health problems in the future.
+
+Question:
+What is preventive healthcare?
+
+If something is unknowable from the context, set ""confidence"": 0 and use an empty ""supporting_facts"".","```json
+{
+  ""answer"": ""Preventive healthcare includes routine medical check-ups, vaccinations, and early detection of diseases."",
+  ""supporting_facts"": [],
+  ""confidence"": 1.0
+}
+```",5,5,5,
+step2_structured.json,structured,t6,"You are a helpful assistant. Return the answer in **strict JSON** with keys:
+- ""answer"": string
+- ""supporting_facts"": list of short strings derived from the context
+- ""confidence"": number in [0,1]
+
+Context:
+Health refers to the overall physical and mental well-being of a person. Maintaining good health requires a balanced diet, regular physical activity, adequate sleep, and proper hygiene.
+
+Eating fruits, vegetables, whole grains, and lean proteins helps the body function properly. Drinking enough water and limiting sugary foods and processed snacks are also important for maintaining a healthy weight.
+
+Regular exercise strengthens the heart, muscles, and bones. It also reduces stress and improves mood. Adults are generally encouraged to engage in at least 30 minutes of moderate physical activity most days of the week.
+
+Preventive healthcare includes routine medical check-ups, vaccinations, and early detection of diseases. Visiting a healthcare provider regularly can help prevent serious health problems in the future.
+
+Question:
+Does the context mention mental illness treatment programs? If not, state 'Not provided in context.'
+
+If something is unknowable from the context, set ""confidence"": 0 and use an empty ""supporting_facts"".","```json
+{
+  ""answer"": ""No"",
+  ""supporting_facts"": [],
+  ""confidence"": 0.0
+}
+```",5,5,5,
+step3_fewshot.json,fewshot,t1,"You are a helpful assistant. Here are some QA examples:
+
+Q: Define health based on the context.
+A: Health refers to a person's overall physical and mental well-being.
+
+Q: List two ways to maintain good health.
+A: - Eat a balanced diet
+- Exercise regularly
+
+Now answer the new question using the context below.
+
+Context:
+Health refers to the overall physical and mental well-being of a person. Maintaining good health requires a balanced diet, regular physical activity, adequate sleep, and proper hygiene.
+
+Eating fruits, vegetables, whole grains, and lean proteins helps the body function properly. Drinking enough water and limiting sugary foods and processed snacks are also important for maintaining a healthy weight.
+
+Regular exercise strengthens the heart, muscles, and bones. It also reduces stress and improves mood. Adults are generally encouraged to engage in at least 30 minutes of moderate physical activity most days of the week.
+
+Preventive healthcare includes routine medical check-ups, vaccinations, and early detection of diseases. Visiting a healthcare provider regularly can help prevent serious health problems in the future.
+
+Question:
+Define health according to the context.","Based on the context provided, health refers to the overall physical and mental well-being of a person.",5,4,5,
+step3_fewshot.json,fewshot,t2,"You are a helpful assistant. Here are some QA examples:
+
+Q: Define health based on the context.
+A: Health refers to a person's overall physical and mental well-being.
+
+Q: List two ways to maintain good health.
+A: - Eat a balanced diet
+- Exercise regularly
+
+Now answer the new question using the context below.
+
+Context:
+Health refers to the overall physical and mental well-being of a person. Maintaining good health requires a balanced diet, regular physical activity, adequate sleep, and proper hygiene.
+
+Eating fruits, vegetables, whole grains, and lean proteins helps the body function properly. Drinking enough water and limiting sugary foods and processed snacks are also important for maintaining a healthy weight.
+
+Regular exercise strengthens the heart, muscles, and bones. It also reduces stress and improves mood. Adults are generally encouraged to engage in at least 30 minutes of moderate physical activity most days of the week.
+
+Preventive healthcare includes routine medical check-ups, vaccinations, and early detection of diseases. Visiting a healthcare provider regularly can help prevent serious health problems in the future.
+
+Question:
+List three ways to maintain good health.","Based on the context, here are three ways to maintain good health:
+
+1. Eat a balanced diet
+2. Exercise regularly
+3. Get adequate sleep and practice proper hygiene.",5,5,5,
+step3_fewshot.json,fewshot,t3,"You are a helpful assistant. Here are some QA examples:
+
+Q: Define health based on the context.
+A: Health refers to a person's overall physical and mental well-being.
+
+Q: List two ways to maintain good health.
+A: - Eat a balanced diet
+- Exercise regularly
+
+Now answer the new question using the context below.
+
+Context:
+Health refers to the overall physical and mental well-being of a person. Maintaining good health requires a balanced diet, regular physical activity, adequate sleep, and proper hygiene.
+
+Eating fruits, vegetables, whole grains, and lean proteins helps the body function properly. Drinking enough water and limiting sugary foods and processed snacks are also important for maintaining a healthy weight.
+
+Regular exercise strengthens the heart, muscles, and bones. It also reduces stress and improves mood. Adults are generally encouraged to engage in at least 30 minutes of moderate physical activity most days of the week.
+
+Preventive healthcare includes routine medical check-ups, vaccinations, and early detection of diseases. Visiting a healthcare provider regularly can help prevent serious health problems in the future.
+
+Question:
+Why is regular exercise important?","According to the context, regular exercise is important for maintaining overall physical and mental well-being. It helps strengthen the heart, muscles, and bones, reduces stress and improves mood, and also prevents serious health problems in the future.",4,5,5,
+step3_fewshot.json,fewshot,t4,"You are a helpful assistant. Here are some QA examples:
+
+Q: Define health based on the context.
+A: Health refers to a person's overall physical and mental well-being.
+
+Q: List two ways to maintain good health.
+A: - Eat a balanced diet
+- Exercise regularly
+
+Now answer the new question using the context below.
+
+Context:
+Health refers to the overall physical and mental well-being of a person. Maintaining good health requires a balanced diet, regular physical activity, adequate sleep, and proper hygiene.
+
+Eating fruits, vegetables, whole grains, and lean proteins helps the body function properly. Drinking enough water and limiting sugary foods and processed snacks are also important for maintaining a healthy weight.
+
+Regular exercise strengthens the heart, muscles, and bones. It also reduces stress and improves mood. Adults are generally encouraged to engage in at least 30 minutes of moderate physical activity most days of the week.
+
+Preventive healthcare includes routine medical check-ups, vaccinations, and early detection of diseases. Visiting a healthcare provider regularly can help prevent serious health problems in the future.
+
+Question:
+What foods are recommended for a healthy diet?","Based on the context, here are some food recommendations for a healthy diet:
+
+1. Fruits: Eat a variety of fruits to provide essential vitamins, minerals, and antioxidants.
+2. Vegetables: Include leafy greens, broccoli, carrots, and other vegetables in your diet to get important nutrients like vitamins A, C, and K, as well as fiber and antioxidants.
+3. Whole grains: Choose whole grain bread, brown rice, quinoa, and other whole grains for a good source of fiber, vitamins, and minerals.
+4. Lean proteins: Opt for lean protein sources like poultry, fish, beans, lentils, and low-fat dairy products to get essential amino acids and nutrients.
+
+Additionally, it's recommended to limit or avoid:
+
+* Sugary foods and processed snacks
+* Red meat, which can increase the risk of heart disease when consumed in excess
+
+A balanced diet that includes these food groups can help support overall physical and mental well-being.",4,5,5,
+step3_fewshot.json,fewshot,t5,"You are a helpful assistant. Here are some QA examples:
+
+Q: Define health based on the context.
+A: Health refers to a person's overall physical and mental well-being.
+
+Q: List two ways to maintain good health.
+A: - Eat a balanced diet
+- Exercise regularly
+
+Now answer the new question using the context below.
+
+Context:
+Health refers to the overall physical and mental well-being of a person. Maintaining good health requires a balanced diet, regular physical activity, adequate sleep, and proper hygiene.
+
+Eating fruits, vegetables, whole grains, and lean proteins helps the body function properly. Drinking enough water and limiting sugary foods and processed snacks are also important for maintaining a healthy weight.
+
+Regular exercise strengthens the heart, muscles, and bones. It also reduces stress and improves mood. Adults are generally encouraged to engage in at least 30 minutes of moderate physical activity most days of the week.
+
+Preventive healthcare includes routine medical check-ups, vaccinations, and early detection of diseases. Visiting a healthcare provider regularly can help prevent serious health problems in the future.
+
+Question:
+What is preventive healthcare?","Based on the context provided, I will answer your question:
+
+Preventive healthcare refers to regular medical check-ups, vaccinations, and early detection of diseases, aimed at preventing serious health problems from occurring in the first place.",5,5,5,
+step3_fewshot.json,fewshot,t6,"You are a helpful assistant. Here are some QA examples:
+
+Q: Define health based on the context.
+A: Health refers to a person's overall physical and mental well-being.
+
+Q: List two ways to maintain good health.
+A: - Eat a balanced diet
+- Exercise regularly
+
+Now answer the new question using the context below.
+
+Context:
+Health refers to the overall physical and mental well-being of a person. Maintaining good health requires a balanced diet, regular physical activity, adequate sleep, and proper hygiene.
+
+Eating fruits, vegetables, whole grains, and lean proteins helps the body function properly. Drinking enough water and limiting sugary foods and processed snacks are also important for maintaining a healthy weight.
+
+Regular exercise strengthens the heart, muscles, and bones. It also reduces stress and improves mood. Adults are generally encouraged to engage in at least 30 minutes of moderate physical activity most days of the week.
+
+Preventive healthcare includes routine medical check-ups, vaccinations, and early detection of diseases. Visiting a healthcare provider regularly can help prevent serious health problems in the future.
+
+Question:
+Does the context mention mental illness treatment programs? If not, state 'Not provided in context.'","The context does not specifically mention mental illness treatment programs. It mentions general aspects of maintaining good physical and mental well-being, such as eating a balanced diet, exercising regularly, getting adequate sleep, and practicing hygiene. However, it also briefly touches on the importance of preventive healthcare, which may include some aspects related to mental health, but no specific program or treatment is mentioned.",4,4,5,
+step4_cot.json,cot,t1,"You are a helpful assistant. Let's think step by step and show reasoning before the final answer.
+Use the context to avoid hallucinations. Provide a short final answer at the end under 'Final Answer: ...'.
+
+Context:
+Health refers to the overall physical and mental well-being of a person. Maintaining good health requires a balanced diet, regular physical activity, adequate sleep, and proper hygiene.
+
+Eating fruits, vegetables, whole grains, and lean proteins helps the body function properly. Drinking enough water and limiting sugary foods and processed snacks are also important for maintaining a healthy weight.
+
+Regular exercise strengthens the heart, muscles, and bones. It also reduces stress and improves mood. Adults are generally encouraged to engage in at least 30 minutes of moderate physical activity most days of the week.
+
+Preventive healthcare includes routine medical check-ups, vaccinations, and early detection of diseases. Visiting a healthcare provider regularly can help prevent serious health problems in the future.
+
+Question:
+Define health according to the context.","To define health according to the given context, let's analyze the key points:
+
+1. Maintaining good physical and mental well-being.
+2. Requires a balanced diet, regular physical activity, adequate sleep, and proper hygiene.
+3. Involves consuming fruits, vegetables, whole grains, lean proteins, drinking water, limiting sugary foods, and processed snacks.
+
+Based on these points, we can infer that health is characterized by:
+
+* A balance of physical (disease prevention) and mental well-being (mental health)
+* Adequate consumption of essential nutrients
+* Regular physical activity to maintain overall fitness
+* Proper hydration and a healthy sleep schedule
+
+Considering the importance of preventive healthcare, regular check-ups, vaccinations, and early disease detection, we can conclude that:
+
+Health refers to an individual's ability to maintain their physical and mental well-being, which is supported by a balanced lifestyle, regular medical care, and prevention strategies.
+
+Final Answer: Health refers to an individual's overall balance of physical and mental well-being, as supported by a combination of dietary habits, physical activity, adequate sleep, proper hygiene, and preventive healthcare.",4,5,4,
+step4_cot.json,cot,t2,"You are a helpful assistant. Let's think step by step and show reasoning before the final answer.
+Use the context to avoid hallucinations. Provide a short final answer at the end under 'Final Answer: ...'.
+
+Context:
+Health refers to the overall physical and mental well-being of a person. Maintaining good health requires a balanced diet, regular physical activity, adequate sleep, and proper hygiene.
+
+Eating fruits, vegetables, whole grains, and lean proteins helps the body function properly. Drinking enough water and limiting sugary foods and processed snacks are also important for maintaining a healthy weight.
+
+Regular exercise strengthens the heart, muscles, and bones. It also reduces stress and improves mood. Adults are generally encouraged to engage in at least 30 minutes of moderate physical activity most days of the week.
+
+Preventive healthcare includes routine medical check-ups, vaccinations, and early detection of diseases. Visiting a healthcare provider regularly can help prevent serious health problems in the future.
+
+Question:
+List three ways to maintain good health.","To approach this question, let's break down the key components of maintaining good health as mentioned in the context:
+
+1. Balanced diet
+2. Regular physical activity
+3. Adequate sleep and proper hygiene
+
+We can start by listing these elements:
+
+- Balanced diet
+- Regular physical activity
+- Adequate sleep
+
+Now, we can evaluate which one might be a bit more challenging to define without additional context. Since the question doesn't provide specific details on how to maintain good health for each of these aspects, it's reasonable to assume that the ""Final Answer"" will reflect a general approach or principle rather than specific strategies.
+
+Here are three ways to maintain good health:
+
+1. Establishing a routine of regular physical activity and engaging in at least 30 minutes of moderate exercise most days.
+2. Prioritizing sleep and aiming for adequate restful sleep each night (typically 7-9 hours).
+3. Ensuring proper hygiene through regular washing and personal grooming.
+
+Considering the importance of maintaining good health, these general principles can serve as a foundation for understanding how to prioritize overall well-being.
+
+Final Answer: 
+Three key elements that contribute to maintaining good health include establishing a daily routine of physical activity, prioritizing adequate sleep, and practicing proper hygiene.",4,5,4,
+step4_cot.json,cot,t3,"You are a helpful assistant. Let's think step by step and show reasoning before the final answer.
+Use the context to avoid hallucinations. Provide a short final answer at the end under 'Final Answer: ...'.
+
+Context:
+Health refers to the overall physical and mental well-being of a person. Maintaining good health requires a balanced diet, regular physical activity, adequate sleep, and proper hygiene.
+
+Eating fruits, vegetables, whole grains, and lean proteins helps the body function properly. Drinking enough water and limiting sugary foods and processed snacks are also important for maintaining a healthy weight.
+
+Regular exercise strengthens the heart, muscles, and bones. It also reduces stress and improves mood. Adults are generally encouraged to engage in at least 30 minutes of moderate physical activity most days of the week.
+
+Preventive healthcare includes routine medical check-ups, vaccinations, and early detection of diseases. Visiting a healthcare provider regularly can help prevent serious health problems in the future.
+
+Question:
+Why is regular exercise important?","To answer this question, let's consider the steps involved in maintaining good physical and mental well-being.
+
+Firstly, regular exercise helps maintain overall physical health by strengthening the heart, muscles, and bones. This is because physical activity is essential for:
+
+1. Reducing stress: Exercise has been shown to reduce cortisol levels, which can help alleviate symptoms of anxiety and depression.
+2. Improving mood: Regular physical activity releases endorphins, also known as ""feel-good"" hormones, which can boost mood and reduce symptoms of depression.
+3. Supporting bone health: Exercise helps maintain strong bones by stimulating bone growth and density.
+
+Additionally, regular exercise is crucial for maintaining mental well-being by:
+
+1. Reducing symptoms of anxiety and depression: Regular physical activity has been shown to alleviate symptoms of these conditions.
+2. Improving sleep: Regular exercise can help improve sleep quality and duration, which is essential for overall health.
+3. Enhancing cognitive function: Exercise has been linked to improved cognitive function, including better memory and concentration.
+
+Considering the benefits of regular exercise, it's clear that it plays a vital role in maintaining good physical and mental well-being. By incorporating regular physical activity into one's lifestyle, individuals can reduce their risk of developing chronic diseases, improve their mood, and enhance their overall quality of life.
+
+Final Answer: Regular exercise is important because it helps maintain the body's physical health by strengthening the heart, muscles, and bones, while also reducing stress, improving mood, and supporting mental well-being.",3,5,4,
+step4_cot.json,cot,t4,"You are a helpful assistant. Let's think step by step and show reasoning before the final answer.
+Use the context to avoid hallucinations. Provide a short final answer at the end under 'Final Answer: ...'.
+
+Context:
+Health refers to the overall physical and mental well-being of a person. Maintaining good health requires a balanced diet, regular physical activity, adequate sleep, and proper hygiene.
+
+Eating fruits, vegetables, whole grains, and lean proteins helps the body function properly. Drinking enough water and limiting sugary foods and processed snacks are also important for maintaining a healthy weight.
+
+Regular exercise strengthens the heart, muscles, and bones. It also reduces stress and improves mood. Adults are generally encouraged to engage in at least 30 minutes of moderate physical activity most days of the week.
+
+Preventive healthcare includes routine medical check-ups, vaccinations, and early detection of diseases. Visiting a healthcare provider regularly can help prevent serious health problems in the future.
+
+Question:
+What foods are recommended for a healthy diet?","Let's analyze the information step by step:
+
+1. Maintaining good health requires a balanced diet.
+2. This means consuming a variety of foods that provide essential nutrients and energy for the body.
+3. A balanced diet should include fruits, vegetables, whole grains, and lean proteins.
+4. It is also recommended to limit sugary foods and processed snacks.
+
+Considering these points, here are some foods that are generally recommended for a healthy diet:
+
+* Fruits (e.g., apples, bananas, berries)
+* Vegetables (e.g., carrots, broccoli, leafy greens)
+* Whole grains (e.g., brown rice, quinoa, whole wheat bread)
+* Lean proteins (e.g., chicken, fish, tofu)
+
+These foods are rich in essential nutrients, fiber, and antioxidants that support overall health and well-being.
+
+Final Answer: A balanced diet that includes a variety of fruits, vegetables, whole grains, and lean proteins can help maintain good physical and mental health.",4,5,4,
+step4_cot.json,cot,t5,"You are a helpful assistant. Let's think step by step and show reasoning before the final answer.
+Use the context to avoid hallucinations. Provide a short final answer at the end under 'Final Answer: ...'.
+
+Context:
+Health refers to the overall physical and mental well-being of a person. Maintaining good health requires a balanced diet, regular physical activity, adequate sleep, and proper hygiene.
+
+Eating fruits, vegetables, whole grains, and lean proteins helps the body function properly. Drinking enough water and limiting sugary foods and processed snacks are also important for maintaining a healthy weight.
+
+Regular exercise strengthens the heart, muscles, and bones. It also reduces stress and improves mood. Adults are generally encouraged to engage in at least 30 minutes of moderate physical activity most days of the week.
+
+Preventive healthcare includes routine medical check-ups, vaccinations, and early detection of diseases. Visiting a healthcare provider regularly can help prevent serious health problems in the future.
+
+Question:
+What is preventive healthcare?","Let's break down the concept step by step:
+
+1. **Definition**: Preventive healthcare refers to the measures taken to prevent or avoid illnesses, injuries, and health problems.
+2. **Importance**: By taking proactive steps before a problem arises, individuals can reduce their risk of developing chronic conditions, minimize the severity of symptoms, and potentially save lives.
+3. **Key components**:
+	* Routine medical check-ups: Regular monitoring of health indicators such as blood pressure, cholesterol levels, and body mass index (BMI).
+	* Vaccinations: Protecting against diseases through vaccination programs aimed at preventing outbreaks or infections.
+	* Early detection: Identifying potential health issues early on to prevent complications or reduce the need for more severe interventions.
+4. **Goals**: The primary objectives of preventive healthcare are:
+	* Promoting overall well-being
+	* Reducing the burden of chronic diseases and their complications
+	* Improving quality of life
+
+Considering these points, a comprehensive approach to preventive healthcare would include:
+
+- Regular check-ups with healthcare providers
+- Keeping up-to-date on recommended vaccinations
+- Engaging in regular physical activity (aiming for at least 30 minutes per day)
+- Practicing good hygiene and nutrition habits
+- Monitoring health indicators regularly
+
+By following these guidelines, individuals can help maintain their overall health and well-being.
+
+Final Answer: Preventive healthcare refers to the proactive measures taken to prevent or avoid illnesses, injuries, and health problems through regular check-ups, vaccinations, early detection of diseases, and maintaining a healthy lifestyle.",3,5,4,
+step4_cot.json,cot,t6,"You are a helpful assistant. Let's think step by step and show reasoning before the final answer.
+Use the context to avoid hallucinations. Provide a short final answer at the end under 'Final Answer: ...'.
+
+Context:
+Health refers to the overall physical and mental well-being of a person. Maintaining good health requires a balanced diet, regular physical activity, adequate sleep, and proper hygiene.
+
+Eating fruits, vegetables, whole grains, and lean proteins helps the body function properly. Drinking enough water and limiting sugary foods and processed snacks are also important for maintaining a healthy weight.
+
+Regular exercise strengthens the heart, muscles, and bones. It also reduces stress and improves mood. Adults are generally encouraged to engage in at least 30 minutes of moderate physical activity most days of the week.
+
+Preventive healthcare includes routine medical check-ups, vaccinations, and early detection of diseases. Visiting a healthcare provider regularly can help prevent serious health problems in the future.
+
+Question:
+Does the context mention mental illness treatment programs? If not, state 'Not provided in context.'","To answer this question, let's break it down step by step:
+
+1. The context mentions ""mental well-being"" and ""health,"" but it does not explicitly discuss mental illness treatment programs.
+2. Mental illness treatment programs are typically considered under the category of preventive healthcare, which includes regular check-ups, vaccinations, and early detection of diseases (as mentioned in point 4).
+3. Therefore, based on the context provided, we can conclude that mental illness treatment programs are not mentioned.
+
+Final Answer: Not provided in context.",5,5,5,

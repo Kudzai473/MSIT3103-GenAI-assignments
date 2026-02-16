@@ -1,0 +1,56 @@
+[
+  {
+    "step": "fewshot",
+    "task_id": "t1",
+    "prompt": "You are a helpful assistant. Here are some QA examples:\n\nQ: Define health based on the context.\nA: Health refers to a person's overall physical and mental well-being.\n\nQ: List two ways to maintain good health.\nA: - Eat a balanced diet\n- Exercise regularly\n\nNow answer the new question using the context below.\n\nContext:\nHealth refers to the overall physical and mental well-being of a person. Maintaining good health requires a balanced diet, regular physical activity, adequate sleep, and proper hygiene.\n\nEating fruits, vegetables, whole grains, and lean proteins helps the body function properly. Drinking enough water and limiting sugary foods and processed snacks are also important for maintaining a healthy weight.\n\nRegular exercise strengthens the heart, muscles, and bones. It also reduces stress and improves mood. Adults are generally encouraged to engage in at least 30 minutes of moderate physical activity most days of the week.\n\nPreventive healthcare includes routine medical check-ups, vaccinations, and early detection of diseases. Visiting a healthcare provider regularly can help prevent serious health problems in the future.\n\nQuestion:\nDefine health according to the context.",
+    "response": "Based on the context provided, health refers to the overall physical and mental well-being of a person.",
+    "meta": {
+      "k": 2
+    }
+  },
+  {
+    "step": "fewshot",
+    "task_id": "t2",
+    "prompt": "You are a helpful assistant. Here are some QA examples:\n\nQ: Define health based on the context.\nA: Health refers to a person's overall physical and mental well-being.\n\nQ: List two ways to maintain good health.\nA: - Eat a balanced diet\n- Exercise regularly\n\nNow answer the new question using the context below.\n\nContext:\nHealth refers to the overall physical and mental well-being of a person. Maintaining good health requires a balanced diet, regular physical activity, adequate sleep, and proper hygiene.\n\nEating fruits, vegetables, whole grains, and lean proteins helps the body function properly. Drinking enough water and limiting sugary foods and processed snacks are also important for maintaining a healthy weight.\n\nRegular exercise strengthens the heart, muscles, and bones. It also reduces stress and improves mood. Adults are generally encouraged to engage in at least 30 minutes of moderate physical activity most days of the week.\n\nPreventive healthcare includes routine medical check-ups, vaccinations, and early detection of diseases. Visiting a healthcare provider regularly can help prevent serious health problems in the future.\n\nQuestion:\nList three ways to maintain good health.",
+    "response": "Based on the context, here are three ways to maintain good health:\n\n1. Eat a balanced diet\n2. Exercise regularly\n3. Get adequate sleep and practice proper hygiene.",
+    "meta": {
+      "k": 2
+    }
+  },
+  {
+    "step": "fewshot",
+    "task_id": "t3",
+    "prompt": "You are a helpful assistant. Here are some QA examples:\n\nQ: Define health based on the context.\nA: Health refers to a person's overall physical and mental well-being.\n\nQ: List two ways to maintain good health.\nA: - Eat a balanced diet\n- Exercise regularly\n\nNow answer the new question using the context below.\n\nContext:\nHealth refers to the overall physical and mental well-being of a person. Maintaining good health requires a balanced diet, regular physical activity, adequate sleep, and proper hygiene.\n\nEating fruits, vegetables, whole grains, and lean proteins helps the body function properly. Drinking enough water and limiting sugary foods and processed snacks are also important for maintaining a healthy weight.\n\nRegular exercise strengthens the heart, muscles, and bones. It also reduces stress and improves mood. Adults are generally encouraged to engage in at least 30 minutes of moderate physical activity most days of the week.\n\nPreventive healthcare includes routine medical check-ups, vaccinations, and early detection of diseases. Visiting a healthcare provider regularly can help prevent serious health problems in the future.\n\nQuestion:\nWhy is regular exercise important?",
+    "response": "According to the context, regular exercise is important for maintaining overall physical and mental well-being. It helps strengthen the heart, muscles, and bones, reduces stress and improves mood, and also prevents serious health problems in the future.",
+    "meta": {
+      "k": 2
+    }
+  },
+  {
+    "step": "fewshot",
+    "task_id": "t4",
+    "prompt": "You are a helpful assistant. Here are some QA examples:\n\nQ: Define health based on the context.\nA: Health refers to a person's overall physical and mental well-being.\n\nQ: List two ways to maintain good health.\nA: - Eat a balanced diet\n- Exercise regularly\n\nNow answer the new question using the context below.\n\nContext:\nHealth refers to the overall physical and mental well-being of a person. Maintaining good health requires a balanced diet, regular physical activity, adequate sleep, and proper hygiene.\n\nEating fruits, vegetables, whole grains, and lean proteins helps the body function properly. Drinking enough water and limiting sugary foods and processed snacks are also important for maintaining a healthy weight.\n\nRegular exercise strengthens the heart, muscles, and bones. It also reduces stress and improves mood. Adults are generally encouraged to engage in at least 30 minutes of moderate physical activity most days of the week.\n\nPreventive healthcare includes routine medical check-ups, vaccinations, and early detection of diseases. Visiting a healthcare provider regularly can help prevent serious health problems in the future.\n\nQuestion:\nWhat foods are recommended for a healthy diet?",
+    "response": "Based on the context, here are some food recommendations for a healthy diet:\n\n1. Fruits: Eat a variety of fruits to provide essential vitamins, minerals, and antioxidants.\n2. Vegetables: Include leafy greens, broccoli, carrots, and other vegetables in your diet to get important nutrients like vitamins A, C, and K, as well as fiber and antioxidants.\n3. Whole grains: Choose whole grain bread, brown rice, quinoa, and other whole grains for a good source of fiber, vitamins, and minerals.\n4. Lean proteins: Opt for lean protein sources like poultry, fish, beans, lentils, and low-fat dairy products to get essential amino acids and nutrients.\n\nAdditionally, it's recommended to limit or avoid:\n\n* Sugary foods and processed snacks\n* Red meat, which can increase the risk of heart disease when consumed in excess\n\nA balanced diet that includes these food groups can help support overall physical and mental well-being.",
+    "meta": {
+      "k": 2
+    }
+  },
+  {
+    "step": "fewshot",
+    "task_id": "t5",
+    "prompt": "You are a helpful assistant. Here are some QA examples:\n\nQ: Define health based on the context.\nA: Health refers to a person's overall physical and mental well-being.\n\nQ: List two ways to maintain good health.\nA: - Eat a balanced diet\n- Exercise regularly\n\nNow answer the new question using the context below.\n\nContext:\nHealth refers to the overall physical and mental well-being of a person. Maintaining good health requires a balanced diet, regular physical activity, adequate sleep, and proper hygiene.\n\nEating fruits, vegetables, whole grains, and lean proteins helps the body function properly. Drinking enough water and limiting sugary foods and processed snacks are also important for maintaining a healthy weight.\n\nRegular exercise strengthens the heart, muscles, and bones. It also reduces stress and improves mood. Adults are generally encouraged to engage in at least 30 minutes of moderate physical activity most days of the week.\n\nPreventive healthcare includes routine medical check-ups, vaccinations, and early detection of diseases. Visiting a healthcare provider regularly can help prevent serious health problems in the future.\n\nQuestion:\nWhat is preventive healthcare?",
+    "response": "Based on the context provided, I will answer your question:\n\nPreventive healthcare refers to regular medical check-ups, vaccinations, and early detection of diseases, aimed at preventing serious health problems from occurring in the first place.",
+    "meta": {
+      "k": 2
+    }
+  },
+  {
+    "step": "fewshot",
+    "task_id": "t6",
+    "prompt": "You are a helpful assistant. Here are some QA examples:\n\nQ: Define health based on the context.\nA: Health refers to a person's overall physical and mental well-being.\n\nQ: List two ways to maintain good health.\nA: - Eat a balanced diet\n- Exercise regularly\n\nNow answer the new question using the context below.\n\nContext:\nHealth refers to the overall physical and mental well-being of a person. Maintaining good health requires a balanced diet, regular physical activity, adequate sleep, and proper hygiene.\n\nEating fruits, vegetables, whole grains, and lean proteins helps the body function properly. Drinking enough water and limiting sugary foods and processed snacks are also important for maintaining a healthy weight.\n\nRegular exercise strengthens the heart, muscles, and bones. It also reduces stress and improves mood. Adults are generally encouraged to engage in at least 30 minutes of moderate physical activity most days of the week.\n\nPreventive healthcare includes routine medical check-ups, vaccinations, and early detection of diseases. Visiting a healthcare provider regularly can help prevent serious health problems in the future.\n\nQuestion:\nDoes the context mention mental illness treatment programs? If not, state 'Not provided in context.'",
+    "response": "The context does not specifically mention mental illness treatment programs. It mentions general aspects of maintaining good physical and mental well-being, such as eating a balanced diet, exercising regularly, getting adequate sleep, and practicing hygiene. However, it also briefly touches on the importance of preventive healthcare, which may include some aspects related to mental health, but no specific program or treatment is mentioned.",
+    "meta": {
+      "k": 2
+    }
+  }
+]
